@@ -7,6 +7,24 @@
 
 <br>
 
+```python
+from pyp8s import MetricsHandler
+
+MetricsHandler.init("events_total", "counter", "Events happening")
+MetricsHandler.inc("events_total", 1, source="around", kind="good")
+
+MetricsHandler.serve()
+```
+
+```python
+# HELP events_total Events happening
+# TYPE events_total counter
+events_total{source="around",kind="good"} 1
+```
+
+<h1>&nbsp</h1>
+<br>
+
 <p>
   <div>
     Latest: <a href="https://github.com/pyp8s/pyp8s/releases/latest" target="_blank">https://github.com/pyp8s/pyp8s/releases/latest</a>
