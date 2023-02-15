@@ -16,6 +16,10 @@ MetricsHandler.inc("events_total", 1, source="around", kind="good")
 MetricsHandler.serve()
 ```
 
+<div align="center"> ↓ ↓ ↓ </div>
+<br>
+
+
 ```python
 # HELP events_total Events happening
 # TYPE events_total counter
