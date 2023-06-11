@@ -39,7 +39,11 @@ events_total{source="around",kind="good"} 1
   </div>
   
   <div>
-    PyPi: <a href="https://pypi.org/project/pyp8s/" target="_blank">https://pypi.org/project/pyp8s/</a>
+    Python library: <a href="https://pypi.org/project/pyp8s/" target="_blank">https://pypi.org/project/pyp8s/</a>
+  </div>
+  
+  <div>
+    Django app: <a href="https://pypi.org/project/django-pyp8s/" target="_blank">https://pypi.org/project/django-pyp8s/</a>
   </div>
 
 </p>
